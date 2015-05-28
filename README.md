@@ -169,11 +169,13 @@
 		        },
 		        ...
 		}    </code></pre>
+		
+	- APP更新功能，点击右上角的`overflow`显示"APP更新"，点击检查更新（默认为有更新安装包），下载APP进行安装，并且下载完毕后直接打开安装，新APP的下载地址可用 `http://hongyan.cqupt.edu.cn/app/com.mredrock.cyxbs.apk`代替。
 
 ### 选做题（加分项）
  
 - [数据库](./SQL试题.pdf)sql语句，按pdf中的要求答题([点我查看pdf](././SQL试题.pdf))。
-- APP更新功能，点击右上角的`overflow`显示"APP更新"，点击检查更新（默认为有更新安装包），下载APP进行安装，并且下载完毕后直接打开安装，新APP的下载地址可用 `http://hongyan.cqupt.edu.cn/app/com.mredrock.cyxbs.apk`代替。
+
 
 ### PS:
 +	编码注意规范，清晰的代码可让阅读的人神清气爽
