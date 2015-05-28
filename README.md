@@ -1,5 +1,8 @@
 # 红岩网校工作站移动开发部考核说明
 
+## FIRST FIRST STEP
+周六下午全移动聚餐~ ~ ~啦啦啦啦
+
 
 ## First Step
 注册Github，并将Github账号发往自己导师邮箱，导师将所收集到的学员的Github账号以及仓库地址（eg：https://github.com/RedrockTeam/CYXBS_Android_V2.0）发到邮箱 ：827148989@qq.com，格式为`Mredrock考核-账号名-学员名`，例如：`Mredrock考核-Lecion-袁列诚`
@@ -178,12 +181,17 @@
 ### 选做题（加分项）
  
 - [数据库](./SQL试题.pdf)sql语句，按pdf中的要求答题([点我查看pdf](././SQL试题.pdf))。
+-  在妹子图打开后查看大图的页面：  
+		（1）长按选择保存到某个文件夹下（提示使用流bitmap写成png文件）。  
+		（2）长按选择分享（提示使用系统自带的intent、action和filter）。
 
 
 ### PS:
 +	编码注意规范，清晰的代码可让阅读的人神清气爽
 
 +	包名规范：me.xxx.exam.  eg:me.yangcheng.exam
+
++	兼容：API14-API22。buildtool-version最好22.0.1和sdkversion最好22
 
 +	注意逻辑和细节，例如分页加载数据，空数据的处理等
 
@@ -203,6 +211,7 @@
 
 
 ## iOS
-###
+###	写TODOList
+完成后，用录屏的方式展示界面功能。看看前面的First Step！！！
 
  
