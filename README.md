@@ -170,7 +170,10 @@
 		        ...
 		}    </code></pre>
 		
-	- APP更新功能，点击右上角的`overflow`显示"APP更新"，点击检查更新（默认为有更新安装包），下载APP进行安装，并且下载完毕后直接打开安装，新APP的下载地址可用 `http://hongyan.cqupt.edu.cn/app/com.mredrock.cyxbs.apk`代替。
+	- APP更新功能，点击右上角的`overflow`显示"APP更新"，点击检查更新（默认为有更新安装包），xml解析以下地址后判断versioncode，然后下载完毕后直接打开安装。
+	<pre><code>
+	http://hongyan.cqupt.edu.cn/app/cyxbsAppUpdate.xml
+	</code></pre>
 
 ### 选做题（加分项）
  
