@@ -1,17 +1,41 @@
-# Mredrock_Exam
-移动开发部考核文档
+# 红岩网校工作站移动开发部考核说明
+
+
+## First Step
+注册Github，并将Github账号发往自己导师邮箱，导师将所收集到的学员的Github账号发到邮箱 ：827148989@qq.com，格式为`Mredrock考核-账号名-学员名`，例如：`Mredrock考核-Lecion-袁列诚`
 
 ## Android
 ### 必做题
-- 按照以下要求独立完成一个APP：
-	- 类似以下界面，顶部actionbar或者toolbar放APP图标，APP名字（`需要右上角的overflow`，`不`需要search button）  
+- 按照以下要求独立完成一个APP ：
+	- 参考提供的API文档，自行分析相关有用信息作为网络请求的数据来源
+	 
+	- 参考以下界面，顶部actionbar或者toolbar放APP图标，APP名字（`需要右上角的overflow`，`不`需要search button）  
 	![Alt text](./actionbar.png)
-	- 使用ViewPager＋Fragment，写三个界面：
-		- 界面1: title：妹子图，点击每项列表的item，打开一个新界面全屏显示该item的图片
+	- 使用ViewPager＋Fragment，完成以下`3个`主体界面
+	
+		- 【界面1】: title：妹子图	
+		
 		![Alt text](./meizi.png)
-		- 界面2: title：段子，点击每项列表的item，打开一个新界面全屏显示该item的详细内容
+		
+		>要求
+		
+		>1. 主页为列表，列表项如图显示：标题，时间，图片，点赞数，差评数，吐槽数等基本信息
+		>2. 点击列表的每项item，打开一个新界面全屏显示该item的图片
+
+
+		
+		- 【界面2】: title：段子
+		
 		![Alt text](./duanzi.png)
-		- 界面3: title：NONE，本界面自定义，作为加分项
+		
+		>要求
+		
+		>1. 主页为列表，列表项如图显示：标题，时间，内容，点赞数，差评数，吐槽数等基本信息
+		
+		>2. 点击每项列表的item，打开一个新界面全屏显示该item的详细内容
+		
+		- 界面3: title：NONE，本界面自定义，自行发挥创造，根据完成情况，给予加分
+		
 
 - API：
 	<pre><code>
@@ -149,19 +173,29 @@
 ### 选做题（加分项）
  
 - [数据库](./SQL试题.pdf)sql语句，按pdf中的要求答题([点我查看pdf](././SQL试题.pdf))。
-- APP更新功能，点击右上角的`overflow`显示"APP更新"二字，点击下载APP，并且下载完毕后直接打开安装，新APP的地址可用 `http://hongyan.cqupt.edu.cn/app/com.mredrock.cyxbs.apk`代替。
+- APP更新功能，点击右上角的`overflow`显示"APP更新"，点击检查更新（默认为有更新安装包），下载APP进行安装，并且下载完毕后直接打开安装，新APP的下载地址可用 `http://hongyan.cqupt.edu.cn/app/com.mredrock.cyxbs.apk`代替。
 
-### PS:  
-	> 大家尽量多做选做题加分  
-	> 如果一个功能没做出来先放一下做其他的
-	> 大家尽量不用库，自己封装最好，不仅限封装网络请求，比如listvie/recyclerview的封装也是极好的
-	> 图片下载用bitmap显示，注意OOM
-	> 不可以问你的导师，但是可以自行百度谷歌，我们相信你们能够独立依靠自己完成考核
-	> 考核时间：本周五	晚上23:50-周日24:00，请在这个时间段内将最终内容push到你的github
+### PS:
++	编码注意规范，清晰的代码可让阅读的人神清气爽
+
++	注意逻辑和细节，例如分页加载数据，空数据的处理等
+
++	尽量多做选做题加分
+	
++	如果一个功能没做出来先放一下做其他的
+
++	尽量不用库，自己封装最好，不仅限封装网络请求，比如listview/recyclerview的封装也是极好的
+
++	图片下载用bitmap显示，注意OOM
+
++	不可以问你的导师，但是可以自行百度谷歌，我们相信你们能够独立依靠自己完成考核
+
++	考核时间：本周五【5月29日】	晚上23:50-周日24:00，请在这个时间段内将最终内容push到你的Github，超过周日24:00以后的commit将视为作废
+
 
 
 
 ## iOS
-
+###
 
  
