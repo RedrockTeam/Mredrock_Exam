@@ -2,7 +2,7 @@
 
 
 ## First Step
-注册Github，并将Github账号发往自己导师邮箱，导师将所收集到的学员的Github账号发到邮箱 ：827148989@qq.com，格式为`Mredrock考核-账号名-学员名`，例如：`Mredrock考核-Lecion-袁列诚`
+注册Github，并将Github账号发往自己导师邮箱，导师将所收集到的学员的Github账号以及仓库地址（eg：https://github.com/RedrockTeam/CYXBS_Android_V2.0）发到邮箱 ：827148989@qq.com，格式为`Mredrock考核-账号名-学员名`，例如：`Mredrock考核-Lecion-袁列诚`
 
 ## Android
 ### 必做题
@@ -177,6 +177,8 @@
 
 ### PS:
 +	编码注意规范，清晰的代码可让阅读的人神清气爽
+
++	包名规范：me.xxx.exam.  eg:me.yangcheng.exam
 
 +	注意逻辑和细节，例如分页加载数据，空数据的处理等
 
