@@ -12,30 +12,30 @@
 - 按照以下要求独立完成一个APP ：
 	- 参考提供的API文档，自行分析相关有用信息作为网络请求的数据来源
 	 
-	- 参考以下界面，顶部actionbar或者toolbar放APP图标，APP名字（`需要右上角的overflow`，`不`需要search button）  
+	- 参考以下界面，顶部actionbar或者toolbar放APP图标，APP名字（`需要右上角的overflow`，`不`需要search button） `(5')`
 	![Alt text](./actionbar.png)
-	- 使用ViewPager＋Fragment，完成以下`3个`主体界面
+	- 使用ViewPager＋Fragment，完成以下`3个`主体界面`(10')`
 	
-		- 【界面1】: title：妹子图	
+		- 【界面1】: title：妹子图	`(共计25')`
 		
 		![Alt text](./meizi.png)
 		
 		>要求
 		
-		>1. 主页为列表，列表项如图显示：标题，时间，图片，点赞数，差评数，吐槽数等基本信息
-		>2. 点击列表的每项item，打开一个新界面全屏显示该item的图片
+		>1. 主页为列表，列表项如图显示：标题，时间，图片，点赞数，差评数，吐槽数等基本信息`(15')`
+		>2. 点击列表的每项item，打开一个新界面全屏显示该item的图片`(10')`
 
 
 		
-		- 【界面2】: title：段子
+		- 【界面2】: title：段子`(共计25')`
 		
 		![Alt text](./duanzi.png)
 		
 		>要求
 		
-		>1. 主页为列表，列表项如图显示：标题，时间，内容，点赞数，差评数，吐槽数等基本信息
+		>1. 主页为列表，列表项如图显示：标题，时间，内容，点赞数，差评数，吐槽数等基本信息`(15')`
 		
-		>2. 点击每项列表的item，打开一个新界面全屏显示该item的详细内容
+		>2. 点击每项列表的item，打开一个新界面全屏显示该item的详细内容`(10')`
 		
 		- 界面3: title：NONE，本界面自定义，自行发挥创造，根据完成情况，给予加分
 		
@@ -173,25 +173,25 @@
 		        ...
 		}    </code></pre>
 		
-	- APP更新功能，点击右上角的`overflow`显示"APP更新"，点击检查更新（默认为有更新安装包），xml解析以下地址后判断versioncode，然后下载完毕后直接打开安装。
+	- APP更新功能，点击右上角的`overflow`显示"APP更新"，点击检查更新（默认为有更新安装包），xml解析以下地址后判断versioncode，然后下载完毕后直接打开安装。`(共计20,overflow点击显示了5' 解析5'，下载5'，打开安装5')`
 	<pre><code>
 	http://hongyan.cqupt.edu.cn/app/cyxbsAppUpdate.xml
 	</code></pre>
 
 ### 选做题（加分项）
  
-- [数据库](./SQL试题.pdf)sql语句，按pdf中的要求答题([点我查看pdf](././SQL试题.pdf))。
--  在妹子图打开后查看大图的页面：  
-		（1）长按选择保存到某个文件夹下（提示使用流bitmap写成png文件）。  
-		（2）长按选择分享（提示使用系统自带的intent、action和filter）。
+- [数据库](./SQL试题.pdf)sql语句，按pdf中的要求答题([点我查看pdf](././SQL试题.pdf))。`(8道题 2'/题)`
 
+-  在妹子图打开后查看大图的页面：  
+		（1）长按选择保存到某个文件夹下（提示使用流bitmap写成png文件）。  `(＋5')`
+		（2）长按选择分享（提示使用系统自带的intent、action和filter）。 `(＋5')`
 
 ### PS:
-+	编码注意规范，清晰的代码可让阅读的人神清气爽
++	编码注意规范，清晰的代码可让阅读的人神清气爽`(10')`
 
-+	包名规范：me.xxx.exam.  eg:me.yangcheng.exam
++	包名规范：me.xxx.exam.  eg:me.yangcheng.exam `(2')`
 
-+	兼容：API14-API22。buildtool-version最好22.0.1和sdkversion最好22
++	兼容：API14-API22。buildtool-version最好22.0.1和sdkversion最好22`(3')`
 
 +	注意逻辑和细节，例如分页加载数据，空数据的处理等
 
@@ -199,7 +199,7 @@
 	
 +	如果一个功能没做出来先放一下做其他的
 
-+	尽量不用库，自己封装最好，不仅限封装网络请求，比如listview/recyclerview的封装也是极好的
++	尽量不用库，自己封装最好，不仅限封装网络请求，比如listview/recyclerview的封装也是极好的`(封装了listview,adapter,http等+10')`
 
 +	图片下载用bitmap显示，注意OOM
 
